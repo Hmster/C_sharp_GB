@@ -16,7 +16,7 @@ namespace Lesson1_Homework
             DateTime date = DateTime.Now; //объявляем переменную типа DateTime и присваиваем ей текущее время и дату.
 
             Console.WriteLine($"Hello, {name}. Today is {date.ToShortDateString()}"); //выводим на консоль имя и дату в заданном формате.
-            Console.ReadKey();
+            Console.ReadKey(); //ждем нажатия клавиши
         }
     }
 }
